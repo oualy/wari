@@ -113,6 +113,9 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.0.0"
+    },
     "lcobucci/jwt": {
         "version": "3.3.1"
     },
@@ -240,6 +243,9 @@
             ".env"
         ]
     },
+    "symfony/form": {
+        "version": "v4.3.9"
+    },
     "symfony/framework-bundle": {
         "version": "4.2",
         "recipe": {
@@ -268,6 +274,9 @@
     "symfony/inflector": {
         "version": "v4.3.9"
     },
+    "symfony/intl": {
+        "version": "v4.3.9"
+    },
     "symfony/maker-bundle": {
         "version": "1.0",
         "recipe": {
@@ -280,8 +289,14 @@
     "symfony/mime": {
         "version": "v4.3.9"
     },
+    "symfony/options-resolver": {
+        "version": "v4.3.9"
+    },
     "symfony/orm-pack": {
         "version": "v1.0.7"
+    },
+    "symfony/polyfill-intl-icu": {
+        "version": "v1.13.1"
     },
     "symfony/polyfill-intl-idn": {
         "version": "v1.13.1"

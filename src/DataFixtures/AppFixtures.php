@@ -18,13 +18,14 @@ public function __construct(UserPasswordEncoderInterface $encoder)
 
     public function load(ObjectManager $manager)
     {
-        $user = new Utilisateur();
+          $user = new Utilisateur("ROLE_SUPER_ADMIN"); 
 
         $user->setUsername('adminSys');
-        $user->setnom('oualy');
-        $user->setprenom('ansou');
-        $user->setroles(['ROLE_ADMINSYS']);
-        $user->setisActive('true');
+        
+        $user->setNom('oualy');
+        $user->setPrenom('ansou');
+        $user->setRoles((array("ROLE_SUPER_ADMIN")));
+        $user->setIsActive('true');
          $password = $this->encoder->encodePassword($user, 'pass_1234');
         $user->setPassword($password);
     
